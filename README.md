@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/compass
+eco plugin install https://github.com/kjeco/compass
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/compass
+eco plugin uninstall https://github.com/kjeco/compass
 ```
 
 ## 引用
 
 ```js
-const compass = app.requireModule("vd/compass");
+const compass = app.requireModule("eco/compass");
 ```
 
 ### get(callback) 获取当前方位角

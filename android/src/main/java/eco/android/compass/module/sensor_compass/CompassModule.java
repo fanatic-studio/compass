@@ -1,4 +1,4 @@
-package vd.android.compass.module.sensor_compass;
+package eco.android.compass.module.sensor_compass;
 
 import android.content.Context;
 import android.hardware.Sensor;

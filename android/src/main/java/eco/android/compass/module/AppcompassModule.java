@@ -1,4 +1,4 @@
-package vd.android.compass.module;
+package eco.android.compass.module;
 
 
 import com.taobao.weex.annotation.JSMethod;
@@ -7,8 +7,8 @@ import com.taobao.weex.common.WXModule;
 
 import java.util.HashMap;
 
-import vd.android.compass.module.sensor_compass.CompassModule;
-import vd.android.compass.module.sensor_compass.ModuleResultListener;
+import eco.android.compass.module.sensor_compass.CompassModule;
+import eco.android.compass.module.sensor_compass.ModuleResultListener;
 
 public class AppcompassModule extends WXModule {
 

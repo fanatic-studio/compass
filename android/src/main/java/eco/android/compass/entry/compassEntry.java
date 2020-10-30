@@ -1,12 +1,12 @@
-package vd.android.compass.entry;
+package eco.android.compass.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.compass.module.AppcompassModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.compass.module.AppcompassModule;
 
 @ModuleEntry
 public class compassEntry {
@@ -19,7 +19,7 @@ public class compassEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdCompass", AppcompassModule.class);
+            WXSDKEngine.registerModule("ecoCompass", AppcompassModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

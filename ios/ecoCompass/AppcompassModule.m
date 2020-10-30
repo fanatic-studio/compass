@@ -13,7 +13,7 @@
 
 @implementation AppcompassModule
 
-WX_PlUGIN_EXPORT_MODULE(vdCompass, AppcompassModule)
+WX_PlUGIN_EXPORT_MODULE(ecoCompass, AppcompassModule)
 WX_EXPORT_METHOD(@selector(get:))
 WX_EXPORT_METHOD(@selector(watch::))
 WX_EXPORT_METHOD(@selector(clearWatch:))
